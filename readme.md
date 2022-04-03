@@ -1,6 +1,7 @@
 # Schumann resonances measurement
 
 
+## 
 
 
 
@@ -9,8 +10,7 @@
 
 
 
-
-
+## TODO
 
 
 
