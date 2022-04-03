@@ -1,0 +1,18 @@
+# Schumann resonances measurement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Ressources
