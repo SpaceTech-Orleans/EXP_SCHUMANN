@@ -1,0 +1,12 @@
+tlc271h.5_1	(5V)Single, General Purpose, CMOS in High Bias Mode - Level 1 Model	1	TLC271H Operational Amplifier "Macromodel" Subcircuit
+tlc271h.101	(10V)Single, General Purpose, CMOS in High Bias Mode - Level 1 Model	1	TLC271H Operational Amplifier "Macromodel" Subcircuit
+tlc271h.5_2	(5V)Single, General Purpose, CMOS in High Bias Mode - Level 2 Model	2	TLC271H Operational Amplifier "Macromodel" Subcircuit
+tlc271h.102	(10V)Single, General Purpose, CMOS in High Bias Mode - Level 2 Model	2	TLC271H Operational Amplifier "Macromodel" Subcircuit
+tlc271l.5_1	(5V)Single, General Purpose, CMOS in Low Bias Mode - Level 1 Model	1	TLC271L Operational Amplifier "Macromodel" Subcircuit
+tlc271l.101	(10V)Single, General Purpose, CMOS in Low Bias Mode - Level 1 Model	1	TLC271L Operational Amplifier "Macromodel" Subcircuit
+tlc271l.5_2	(5V)Single, General Purpose, CMOS in Low Bias Mode - Level 2 Model	2	TLC271L Operational Amplifier "Macromodel" Subcircuit
+tlc271l.102	(10V)Single, General Purpose, CMOS in Low Bias Mode - Level 2 Model	2	TLC271L Operational Amplifier "Macromodel" Subcircuit
+tlc271m.5_1	(5V)Single, General Purpose, CMOS in Medium Bias Mode - Level 1 Model	1	TLC271M Operational Amplifier "Macromodel" Subcircuit
+tlc271m.101	(10V)Single, General Purpose, CMOS in Medium Bias Mode - Level 1 Model	1	TLC271M Operational Amplifier "Macromodel" Subcircuit
+tlc271.5_2	(5V)Single, General Purpose, CMOS in Medium Bias Mode - Level 2 Model	2	TLC271M Operational Amplifier "Macromodel" Subcircuit
+tlc271m.102	(10V)Single, General Purpose, CMOS in Medium Bias Mode - Level 2 Model	2	TLC271M Operational Amplifier "Macromodel" Subcircuit
