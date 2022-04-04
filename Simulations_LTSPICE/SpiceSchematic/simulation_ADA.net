@@ -7,7 +7,7 @@ C3 OUT_RAUCH_1 IN_RAUCH_1 120n
 C4 OUT_RAUCH_1 IN_RAUCH_1 22n
 R3 IN_RAUCH_1 0 100k
 XU2 0 N003 +5V -5V OUT_RAUCH_1 AD8642
-V3 Input 0 PWL file=Z:\run\media\aymerick\688229EC3111185C\SpaceTech\EXP_SCHUMANN\Simulations_LTSPICE\Simulation_signals\Stimuli\sine_7_20u.txt
+V3 Input 0 PWL file=..\Simulation_signals\Stimuli\sine_7_20u.txt
 V2 0 -16V 16
 V1 +16V 0 16
 R8 P001 Input 4m
