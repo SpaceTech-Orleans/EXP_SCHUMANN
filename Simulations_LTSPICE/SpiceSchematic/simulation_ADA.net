@@ -1,0 +1,24 @@
+* Z:\run\media\aymerick\688229EC3111185C\SpaceTech\EXP_SCHUMANN\Simulations_LTSPICE\SpiceSchematic\simulation_ADA.asc
+R2 OUT_preamp N002 1K
+XU1 P001 N001 +16V -16V N002 NC_01 ADA4530-1
+R1 OUT_RAUCH_1 N003 200K
+C2 N003 IN_RAUCH_1 1µ
+C3 OUT_RAUCH_1 IN_RAUCH_1 120n
+C4 OUT_RAUCH_1 IN_RAUCH_1 22n
+R3 IN_RAUCH_1 0 100k
+XU2 0 N003 +5V -5V OUT_RAUCH_1 AD8642
+V3 Input 0 PWL file=Z:\run\media\aymerick\688229EC3111185C\SpaceTech\EXP_SCHUMANN\Simulations_LTSPICE\Simulation_signals\Stimuli\sine_7_20u.txt
+V2 0 -16V 16
+V1 +16V 0 16
+R8 P001 Input 4m
+R9 OUT_preamp N001 150
+C1 OUT_preamp 0 100n
+C5 IN_RAUCH_1 OUT_preamp 1µ
+V4 0 -5V 5
+V5 +5V 0 5
+.tran 0 3 0 10u
+* Input stage: Follower opamp
+.lib ADI.lib
+.lib ADI1.lib
+.backanno
+.end

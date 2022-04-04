@@ -1,0 +1,9 @@
+ipykernel
+ipywidgets
+numpy        
+scipy 
+matplotlib
+scikit-image     
+pandas
+PyQt5 
+
