@@ -1,5 +1,7 @@
 Circuit: * Z:\run\media\aymerick\688229EC3111185C\SpaceTech\EXP_SCHUMANN\Simulations_LTSPICE\SpiceSchematic\simulation_ADA.asc
 
+ERROR: Node U3:7 is floating and connected to current source G:U3:B2
+
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -8,33 +10,48 @@ vernier = 0.5
 vernier = 0.25
 vernier = 0.125
 vernier = 0.0625
-Gmin = 1.08884
+Gmin = 1.15289
 vernier = 0.03125
+Gmin = 1.0585
 vernier = 0.015625
-Gmin = 1.03922
 vernier = 0.0078125
+Gmin = 1.04413
 vernier = 0.0104167
 vernier = 0.00520833
-Gmin = 1.02512
-vernier = 0.00260417
-Gmin = 1.01715
+vernier = 0.00694444
+Gmin = 1.03153
 vernier = 0.00347222
-vernier = 0.00173611
+vernier = 0.00462963
 vernier = 0.00231481
-Gmin = 1.01282
-vernier = 0.00115741
+Gmin = 1.02587
+vernier = 0.00308642
 vernier = 0.00154321
-Gmin = 1.01018
-vernier = 0.000771604
+Gmin = 1.02094
+vernier = 0.00205761
 vernier = 0.00102881
-Gmin = 1.00856
-vernier = 0.000514403
+Gmin = 1.01727
+vernier = 0.00137174
+Gmin = 1.01422
 vernier = 0.00068587
-Gmin = 1.0074
-vernier = 0.000514403
-vernier = 0.00068587
-Gmin = 1.00623
-vernier = 0.000514402
+vernier = 0.000914493
+Gmin = 1.01266
+vernier = 0.00121932
+vernier = 0.000609662
+Gmin = 1.01119
+vernier = 0.000812882
+vernier = 0.000406441
+vernier = 0.000541921
+Gmin = 1.01013
+vernier = 0.000722562
+vernier = 0.000541921
+Gmin = 1.00904
+vernier = 0.000406441
+vernier = 0.000541921
+vernier = 0.000406441
+Gmin = 1.00839
+vernier = 0.000541921
+vernier = 0.000406441
+Gmin = 1.00757
 Gmin = 0
 Gmin stepping failed
 
@@ -55,21 +72,21 @@ vernier = 0.5625
 Source stepping succeeded in finding the operating point.
 
 
-Date: Mon Apr 04 23:30:45 2022
-Total elapsed time: 57.459 seconds.
+Date: Mon Apr 18 23:34:53 2022
+Total elapsed time: 19.160 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1954955
-traniter = 1947552
-tranpoints = 973777
-accept = 973746
-rejected = 31
-matrix size = 71
-fillins = 133
+totiter = 447841
+traniter = 437071
+tranpoints = 218468
+accept = 218460
+rejected = 8
+matrix size = 116
+fillins = 195
 solver = Normal
-Thread vector: 8.1/6.7[3] 4.8/3.1[3] 3.9/5.1[1] 1.4/2.1[1]  2592/500
-Matrix Compiler1:     490 opcodes  2.8/[1.6]/2.3
-Matrix Compiler2: 8.56 KB object code size  2.0/2.3/[1.8]
+Thread vector: 15.3/8.7[4] 4.2/4.0[1] 3.9/2.9[4] 1.5/2.3[1]  2592/500
+Matrix Compiler1: 15.25 KB object code size  3.9/2.6/[2.0]
+Matrix Compiler2: 13.50 KB object code size  2.4/2.9/[1.9]
 
