@@ -7,6 +7,8 @@
 
 from xml.sax.handler import feature_external_ges
 import numpy as np
+from scipy.io import wavfile
+
 ########################################################
 ########################################################
 
@@ -67,7 +69,22 @@ def multi_sine_generator(freq,Amps,sim_time, time_step):
 
 ########################################################
 '''
-@brief: 
-@param:         
-@output: 
+@brief: Read wav file from ltspice
+@param: filename, [str] : path of the wav file to read.
+        Nbits,    [int] : Number of bits on wich the signal is encoded.
+        FullScale,[float]: Full scale value.
+
+@output: Signal and time values in a numpy array of shape [len, 2] [[time][signal value]]
 '''
+def read_ltspice_wav(filename, Nbits, FullScale):
+    samplerate, data = wavfile.read(filename)   # Read wav file
+    # Number of samples
+    nb_samples = np.shape(data)[0]
+    # Simulation time
+    sim_time = nb_samples/samplerate
+    # Signal generation
+    signal = np.zeros((nb_samples,2))                # Create empty signal
+    signal[:,0] = np.linspace(0,sim_time,nb_samples) # Create time vector  
+    signal[:,1] = data#(data[:]*FullScale)/(2**(Nbits))
+
+    return signal
