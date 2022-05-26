@@ -85,6 +85,6 @@ def read_ltspice_wav(filename, Nbits, FullScale):
     # Signal generation
     signal = np.zeros((nb_samples,2))                # Create empty signal
     signal[:,0] = np.linspace(0,sim_time,nb_samples) # Create time vector  
-    signal[:,1] = data#(data[:]*FullScale)/(2**(Nbits))
+    signal[:,1] = (data[:]*FullScale)/(2**(Nbits/2))
 
     return signal
